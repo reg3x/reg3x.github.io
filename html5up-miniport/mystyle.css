@@ -41,12 +41,12 @@
 .wrapper
 {
 	text-align:center;
-	padding: 8em;
+	padding: 4em 0 4em 0;
 }
 .container
 {
+	display:inline-block;
 	padding:1em;
-	width:10em;
 }
 #who
 {
@@ -57,5 +57,4 @@
 
 #name
 {
-	margin:auto;
 }
