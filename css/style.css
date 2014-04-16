@@ -58,3 +58,23 @@
 #name
 {
 }
+#social
+{
+
+}
+
+#social ul
+{
+    padding: inherit;
+}
+
+#social li
+{
+    display: inline-block;
+    margin: 1em;
+
+}
+#social li a
+{
+     
+}
