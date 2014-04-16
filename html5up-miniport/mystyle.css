@@ -1,0 +1,61 @@
+@charset 'UTF-8';
+
+*
+{
+	font-family: Verdana;
+}
+
+#nav
+{
+	background-color: #000000;
+	font-size: 1em;
+        text-align: center;
+        position: fixed;
+        left: 0; /*no left margin*/
+        top: 0;  /*no top margin*/
+	width: 100%; /*makes the navbar fully width*/
+        z-index: 10000;
+        cursor: default;
+}
+        
+#nav li
+{
+	display: inline-block;
+}
+
+#nav a
+{
+	position: relative;/**/
+	display: block; /**/
+	color: #fff; 
+	text-decoration: none;
+	padding: 0 1em 0 1em;
+	left-margin:0.1em;
+	right-margin:0.1em;
+	border-radius:40%;
+}
+#nav a:hover
+{
+	background-color:#333333;
+}
+.wrapper
+{
+	text-align:center;
+	padding: 8em;
+}
+.container
+{
+	padding:1em;
+	width:10em;
+}
+#who
+{
+}
+#logo
+{
+}
+
+#name
+{
+	margin:auto;
+}
