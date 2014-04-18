@@ -55,12 +55,19 @@
 {
     width: 26em;
     height: 26em;
-    border-radius: 100px;
-    -webkit-border-radius: 100px;
-    -moz-border-radius: 100px;
     background-image: url(../me.jpg);
     background-repeat: no-repeat;
     background-position: center;
+    
+    /*Border Radius*/
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    
+    /*Shadow*/
+    box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
 #name
