@@ -41,18 +41,26 @@
 .wrapper
 {
 	text-align:center;
-	padding: 4em 0 4em 0;
+	padding: 0em 0 0em 0;
 }
 .container
 {
 	display:inline-block;
-	padding:1em;
+	padding:5em;
 }
 #who
 {
 }
 #logo
 {
+    width: 30em;
+    height: 30em;
+    border-radius: 150px;
+    -webkit-border-radius: 150px;
+    -moz-border-radius: 150px;
+    background-image: url(../me.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #name
@@ -77,4 +85,10 @@
 #social li a
 {
      
+}
+.box
+{
+    margin: 3em;
+    padding: 1em;
+    display:inline-block;
 }
