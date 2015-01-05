@@ -100,3 +100,9 @@
     display:inline-block;
     width:20em;
 }
+
+.box img
+{
+    max-height: 100px;
+    max-width: 100px;
+}
