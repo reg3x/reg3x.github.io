@@ -34,23 +34,24 @@
 	right-margin:0.1em;
 	border-radius:40%;
 }
+
 #nav a:hover
 {
 	background-color:#333333;
 }
+
 .wrapper
 {
 	text-align:center;
 	padding: 0em 0 0em 0;
 }
+
 .container
 {
 	display:inline-block;
 	padding:5em;
 }
-#who
-{
-}
+
 #logo
 {
     width: 26em;
@@ -70,14 +71,6 @@
 	-moz-box-shadow: 0 0 8px rgba(0, 0, 0, .8);
 }
 
-#name
-{
-}
-#social
-{
-
-}
-
 #social ul
 {
     padding: inherit;
@@ -89,10 +82,7 @@
     margin: 1em;
 
 }
-#social li a
-{
-     
-}
+
 .box
 {
     margin: 2em;
