@@ -9,13 +9,13 @@
 {
 	background-color: black;
 	font-size: 1em;
-        text-align: center;
-        position: fixed;
-        left: 0; /*no left margin*/
-        top: 0;  /*no top margin*/
+    text-align: center;
+    position: fixed;
+    left: 0; /*no left margin*/
+    top: 0;  /*no top margin*/
 	width: 100%; /*makes the navbar fully width*/
-        z-index: 10000;
-        
+    z-index: 10000;
+    
 }
         
 #nav li
@@ -48,6 +48,7 @@
 
 .container
 {
+    text-align: center;
 	display:inline-block;
 	padding:5em;
 }
@@ -140,4 +141,16 @@
 nav li i
 {
     color: white;
+}
+
+#contact
+{   
+    float: right;
+    margin-right: 30px;
+
+}
+
+#navinit
+{
+    margin-left: 50px;
 }
