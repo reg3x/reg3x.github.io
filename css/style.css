@@ -7,7 +7,7 @@
 
 #nav
 {
-	background-color: #000000;
+	background-color: black;
 	font-size: 1em;
         text-align: center;
         position: fixed;
@@ -15,7 +15,7 @@
         top: 0;  /*no top margin*/
 	width: 100%; /*makes the navbar fully width*/
         z-index: 10000;
-        cursor: default;
+        
 }
         
 #nav li
@@ -95,4 +95,49 @@
 {
     max-height: 100px;
     max-width: 100px;
+}
+
+.twitter-color
+{
+    color: #55ACEE;
+}
+
+.twitter-color:hover
+{
+    color: #358CCE;
+}
+
+.google-plus-color
+{
+    color: #DD4B39;
+}
+
+.google-plus-color:hover
+{
+    color: #BD2B19;
+}
+
+.facebook-color
+{
+    color: #43609C;
+}
+
+.facebook-color:hover
+{
+    color: #23407C;
+}
+
+.linkedin-color
+{
+    color: #0077B5;
+}
+
+.linkedin-color:hover
+{
+    color: #005795;
+}
+
+nav li i
+{
+    color: white;
 }
